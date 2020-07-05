@@ -47,12 +47,12 @@ std::vector<TimingInfo> initializeTimingInfoVector(void) {
 
 void createCSVOutputFile(std::vector<TimingInfo> &timingInfo) {
     constexpr char COMMA[]{ ", " };
-    constexpr char csvName[]{ "../report/Mohamed_Saied_report.csv" };
+    constexpr char csvName[]{ "/home/workspace/SFND_2D_Feature_Matching/report/Mohamed_Saied_report.csv" };
 
     std::cout << "Writing output file: " << csvName << std::endl;
     std::ofstream csvStream{ csvName };
 
-    csvStream << "Name: Brandon Marlowe" << std::endl << "Date: 2020-07-3" << std::endl << std::endl;
+    csvStream << "Name:MohamedSaied" << std::endl << "Date: 2020-07-3" << std::endl << std::endl;
 
     csvStream << "IMAGE NO." << COMMA;
     csvStream << "DETECTOR TYPE" << COMMA;
